@@ -23,7 +23,7 @@ To run the project locally, follow these steps:
 7. Install frontend dependencies: `npm install`
 8. Start the Vue.js development server: `npm run serve`
 
-Visit `http://localhost:8080` in your web browser to view the WEB Letter website.
+Visit `http://localhost:5173` in your web browser to view the WEB Letter website.
 
 ## Configuration
 
