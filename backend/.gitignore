@@ -1,0 +1,7 @@
+.env
+parsed_message.xlsx
+.idea
+venv_letter
+venv
+.env.docker
+books/import_books.py
