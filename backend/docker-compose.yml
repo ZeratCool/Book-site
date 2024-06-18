@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  django:
+    build: ./app
+    command: sh -c gunicorn --bind 0.0.0.0:8000 app.wsgi"
+    volumes:
+      - ./app:/app
+      - static_data:/app/static
+    expose:
+      - 8000
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: letter_user
+      POSTGRES_PASSWORD: lomanashmata
+      POSTGRES_DB: web_letter
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data/
