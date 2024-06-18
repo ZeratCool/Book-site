@@ -1,7 +1,7 @@
 # WEB Letter
 
 This repository contains the source code for **WEB Letter**, a book website built with Django REST Framework (backend) and Vue.js (frontend).
-
+![preview.gif](preview.gif)
 ## Features
 
 - Search and browse through a collection of books.
