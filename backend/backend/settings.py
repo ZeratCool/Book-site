@@ -10,7 +10,7 @@ SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = ['127.0.0.1', '161.35.211.75']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 INSTALLED_APPS = [
